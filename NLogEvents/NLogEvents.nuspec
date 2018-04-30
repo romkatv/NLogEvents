@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <description>$description$</description>
+    <copyright>$copyright$</copyright>
+    <authors>Roman Perepelitsa</authors>
+    <owners>Roman Perepelitsa</owners>
+    <licenseUrl>https://github.com/romkatv/NLogEvents/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/romkatv/NLogEvents</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>n/a</releaseNotes>
+    <tags>NLog</tags>
+  </metadata>
+</package>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLogEvents", "NLogEvents\NLogEvents.csproj", "{6EFD607F-7E21-49A8-9F7E-C19D0B4B5287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{4A26DD28-F103-403A-BF10-E3B504D48AAA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6EFD607F-7E21-49A8-9F7E-C19D0B4B5287} = {6EFD607F-7E21-49A8-9F7E-C19D0B4B5287}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EFD607F-7E21-49A8-9F7E-C19D0B4B5287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFD607F-7E21-49A8-9F7E-C19D0B4B5287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFD607F-7E21-49A8-9F7E-C19D0B4B5287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFD607F-7E21-49A8-9F7E-C19D0B4B5287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A26DD28-F103-403A-BF10-E3B504D48AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A26DD28-F103-403A-BF10-E3B504D48AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A26DD28-F103-403A-BF10-E3B504D48AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A26DD28-F103-403A-BF10-E3B504D48AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB817549-045D-4700-8849-610BBBB1A5C5}
+	EndGlobalSection
+EndGlobal
