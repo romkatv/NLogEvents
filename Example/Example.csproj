@@ -35,8 +35,8 @@
     <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
       <HintPath>packages\NLog.4.5.3\lib\net45\NLog.dll</HintPath>
     </Reference>
-    <Reference Include="NLog.Events, Version=0.1.6694.29913, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\NLog.Events.0.1.6694.29913\lib\net461\NLog.Events.dll</HintPath>
+    <Reference Include="NLog.Events, Version=0.1.6696.17810, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\NLog.Events.0.1.6696.17810\lib\net452\NLog.Events.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
