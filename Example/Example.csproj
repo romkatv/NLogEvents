@@ -8,9 +8,10 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Example</RootNamespace>
     <AssemblyName>Example</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -35,8 +36,8 @@
     <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
       <HintPath>packages\NLog.4.5.3\lib\net45\NLog.dll</HintPath>
     </Reference>
-    <Reference Include="NLog.Events, Version=0.1.6696.17810, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\NLog.Events.0.1.6696.17810\lib\net452\NLog.Events.dll</HintPath>
+    <Reference Include="NLog.Events, Version=0.1.6698.27150, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\NLog.Events.0.1.6698.27150\lib\net472\NLog.Events.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
