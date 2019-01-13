@@ -2,20 +2,18 @@
 using NLog.Config;
 using NLog.Targets;
 
-namespace NLogEvents
-{
+namespace NLogEvents {
+  /// <summary>
+  /// NLog target that triggers `NLogEvents.Events.OnLog`.
+  /// </summary>
+  [Target("OnLogEvent")]
+  class OnLogEvent : TargetWithLayout {
     /// <summary>
-    /// NLog target that triggers `NLogEvents.Events.OnLog`.
+    /// Defines the value of the first argument of `NLogEvents.Events.OnLog`.
+    /// The default is `null`.
     /// </summary>
-    [Target("OnLogEvent")]
-    class OnLogEvent : TargetWithLayout
-    {
-        /// <summary>
-        /// Defines the value of the first argument of `NLogEvents.Events.OnLog`.
-        /// The default is `null`.
-        /// </summary>
-        public string Event { get; set; }
+    public string Event { get; set; }
 
-        protected override void Write(LogEventInfo info) => Events.FireOnLog(Event, info);
-    }
+    protected override void Write(LogEventInfo info) => Events.FireOnLog(Event, info);
+  }
 }
