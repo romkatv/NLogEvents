@@ -2,6 +2,9 @@
 using NLog;
 
 namespace NLogEvents {
+  /// <summary>
+  /// Events triggered by NLog that can be hooked by user code.
+  /// </summary>
   public static class Events {
     /// <summary>
     /// Triggers whenever a log is written to a target of type `OnLogEvent`.
