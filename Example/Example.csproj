@@ -34,10 +34,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
-      <HintPath>packages\NLog.4.5.3\lib\net45\NLog.dll</HintPath>
+      <HintPath>packages\NLog.4.7.9\lib\net45\NLog.dll</HintPath>
     </Reference>
-    <Reference Include="NLog.Events, Version=0.1.6698.27150, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\NLog.Events.0.1.6698.27150\lib\net472\NLog.Events.dll</HintPath>
+    <Reference Include="NLogEvents, Version=0.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\NLog.Events.0.2.1\lib\netstandard2.0\NLogEvents.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />

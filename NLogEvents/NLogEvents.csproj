@@ -4,12 +4,15 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>NLog.Events</PackageId>
     <Description>OnLog event for NLog</Description>
-    <Version>0.2</Version>
+    <Version>0.2.1</Version>
     <Authors>Roman Perepelitsa</Authors>
     <Copyright>Roman Perepelitsa</Copyright>
     <PackageProjectUrl>https://github.com/romkatv/NLogEvents</PackageProjectUrl>
     <PackageTags>NLog</PackageTags>
     <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+    <IncludeSource>true</IncludeSource>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>

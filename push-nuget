@@ -1,0 +1,22 @@
+#!/usr/bin/env zsh
+#
+# Build NLogEvents and push it to nuget.org. Doesn't take any arguments.
+
+emulate -L  zsh -o err_exit
+
+if (( ARGC )); then
+  print -ru2 -- "usage: ${(q)0}"
+  exit 1
+fi
+
+setopt xtrace
+
+cd -- ${0:h}/NLogEvents
+rm -rf bin
+
+dotnet.exe build -c Release
+dotnet.exe pack -c Release --no-build # --include-source --include-symbols
+
+local key=
+read $'key?\nEnter nuget.org API key for NLog.Events: '
+dotnet.exe nuget push bin/Release/NLog.Events.*.nupkg --api-key "$key" --source https://api.nuget.org/v3/index.json
